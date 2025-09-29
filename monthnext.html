@@ -1,0 +1,311 @@
+<html>
+<head>
+	<link href="https://fonts.cdnfonts.com/css/century-gothic" rel="stylesheet">
+</head>
+<head>
+        <style>
+                div {
+
+                        position: fixed;
+                        border: 1px solid #570909;
+                        height: 80%;
+                        width: 60%;
+                        border-radius: 10px 10px 10px 10px;
+                        padding: 0px 5px;
+                        line-height: 30px;
+                        background-color: #484848;
+                        margin: 65px 0px 0px 200px;
+                        z-index: 10px;
+
+                }
+
+                font {
+                        color: #DEB887;
+                        font-family: century gothic;
+                        font-size: 15px;
+                }
+
+                a {
+                        text-decoration: none;
+                        color: #DEB887;
+                        font: 16px Arial;
+                        border: 1px solid;
+                        border-radius: 10px 10px 10px 10px;
+                        display: block;
+                        padding: 0px 5px;
+                        line-height: 30px;
+                        background-color: #302d29;
+                        font-weight: bold;
+                }
+
+                a.disabled {
+                        pointer-events: none;
+                        /* делаем ссылку некликабельной */
+                        cursor: default;
+                        /* устанавливаем курсор в виде стрелки */
+                        background-color: #817b74;
+                        border: 1px solid #bdab9400;
+                        color: black;
+                }
+
+                a:visited {
+                        background-color: #bdab94;
+                        color: black;
+                        text-decoration: none;
+                }
+
+                a:hover {
+                        background-color: #302d29;
+                        color: whitesmoke;
+                }
+
+                ul {
+                        list-style-type: none;
+                        width: 90%;
+                }
+
+                li {
+                        display: inline-block;
+                        margin-right: 1px;
+                        width: 100px;
+                        height: 50px;
+                        text-align: center;
+                }
+
+                .scroll {
+
+                        overflow-y: scroll;
+                        /* прокрутка по вертикали */
+
+                }
+
+                div.bg {
+
+                        position: fixed;
+                        height: 110%;
+                        width: 99.3%;
+                        background-color: #000000a4;
+                        z-index: 5px;
+                        padding: 0px 0px;
+                        margin: -14px;
+                        border: 0px;
+                }
+
+                /* width */
+                body::-webkit-scrollbar {
+                        width: 10px;
+                }
+
+                /* Track */
+                body::-webkit-scrollbar-track {
+                        background: rgb(102, 7, 7);
+                }
+
+                /* Handle */
+                body::-webkit-scrollbar-thumb {
+                        background: rgb(53, 4, 4);
+                        border-radius: 10px;
+                }
+        </style>
+</head>
+
+<body background="img/bgcontent.png">
+        <center>
+
+                <div class="bg">
+
+
+                </div>
+
+                <div style="background-image: url(img/back.jpg); background-size: 100%;">
+
+                        <ul align="right">
+                                <li style="width: 35; height: 35px; margin-top: -5px; margin-right: -7px;"><a
+                                                style="border: 0px; color: #ecd9bf; background-color: #302d296b"
+                                                href="content.html"> Х </a>
+                                </li>
+                        </ul>
+
+                        <ul>
+                                <li style="width: 5%; height: 50px; margin-top: 45px;"><a href="calendar.html"
+                                                title="Расписание на прошлый месяц">&lt;</a>
+                                </li>
+                                <li style="width: 40%; height: 50px; margin-top: 45px;"><a class="disabled"
+                                                href="okno.html"> ЯНВАРЬ,
+                                                2023 </a>
+                                </li>
+                                <li style="width: 5%; height: 50px; margin-top: 45px;"><a class="disabled" href=""
+                                                title="Расписание на следующий месяц">&gt;</a>
+                                </li>
+                        </ul>
+
+                        <!-- Н1 -->
+                        <ul style=" margin-top: 15px;">
+
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html"> пн
+                                        </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html"> вт
+                                        </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html"> ср
+                                        </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html"> чт
+                                        </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html"> пт
+                                        </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html"> сб
+                                        </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html"> вск
+                                        </a></li>
+                        </ul>
+
+                        <ul>
+                                <li style="width: 35px; height: 40px;"><a class="disabled"
+                                                style="border: 1px solid #77756c; background-color: #4e4d4b; color: #77756c;"
+                                                href="okno.html">
+                                                26 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled"
+                                                style="border: 1px solid #77756c; background-color: #4e4d4b; color: #77756c;"
+                                                href="okno.html">
+                                                27 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled"
+                                                style="border: 1px solid #77756c; background-color: #4e4d4b; color: #77756c;"
+                                                href="okno.html">
+                                                28 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled"
+                                                style="border: 1px solid #77756c; background-color: #4e4d4b; color: #77756c;"
+                                                href="okno.html">
+                                                29 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled"
+                                                style="border: 1px solid #77756c; background-color: #4e4d4b; color: #77756c;"
+                                                href="okno.html">
+                                                30 </a></li>
+                                <li style="width: 35px; height: 40px"><a class="disabled"
+                                                style="border: 1px solid #77756c; background-color: #4e4d4b; color: #77756c;"
+                                                href="okno.html">
+                                                31 </a></li>
+                                <li style="width: 35px; height: 40px"><a class="disabled" href="okno.html">
+                                                1 </a></li>
+                        </ul>
+                        <!-- К1 -->
+
+                        <!-- Н2 -->
+                        <ul style=" margin-top: -20px;">
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html">
+                                                2 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html">
+                                                3 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html">
+                                                4 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html">
+                                                5 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html">
+                                                6 </a></li>
+                                <li style="width: 35px; height: 40px"><a class="disabled" href="okno.html">
+                                                7 </a></li>
+                                <li style="width: 35px; height: 40px"><a class="disabled" href="okno.html">
+                                                8 </a></li>
+                        </ul>
+                        <!-- К2 -->
+
+                        <!-- Н3-->
+                        <ul style=" margin-top: -20px;">
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html">
+                                                9 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html">
+                                                10 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html">
+                                                11 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html">
+                                                12 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html">
+                                                13 </a></li>
+                                <li style="width: 35px; height: 40px"><a class="disabled" href="okno.html">
+                                                14 </a></li>
+                                <li style="width: 35px; height: 40px"><a class="disabled" href="okno.html">
+                                                18 </a></li>
+                        </ul>
+                        <!-- К3 -->
+
+                        <!-- Н4 -->
+                        <ul style=" margin-top: -20px;">
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html">
+                                                19 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html">
+                                                20 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html">
+                                                21 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html">
+                                                22 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html">
+                                                23 </a></li>
+                                <li style="width: 35px; height: 40px"><a class="disabled" href="okno.html">
+                                                24 </a></li>
+                                <li style="width: 35px; height: 40px"><a class="disabled" href="okno.html">
+                                                25 </a></li>
+                        </ul>
+                        <!-- К4 -->
+
+                        <!-- Н5 -->
+                        <ul style=" margin-top: -20px;">
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html">
+                                                26 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html">
+                                                27 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html">
+                                                28 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html">
+                                                29 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled" href="okno.html">
+                                                30 </a></li>
+                                <li style="width: 35px; height: 40px"><a class="disabled" href="okno.html">
+                                                31 </a></li>
+                                <li style="width: 35px; height: 40px"><a class="disabled"
+                                                style="border: 1px solid #77756c; background-color: #4e4d4b; color: #77756c;"
+                                                href="okno.html">
+                                                1 </a></li>
+                        </ul>
+                        <!-- К5 -->
+
+                        <!-- Н6 -->
+                        <ul style=" margin-top: -20px;">
+                                <li style="width: 35px; height: 40px;"><a class="disabled"
+                                                style="border: 1px solid #77756c; background-color: #4e4d4b; color: #77756c;"
+                                                href="okno.html">
+                                                2 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled"
+                                                style="border: 1px solid #77756c; background-color: #4e4d4b; color: #77756c;"
+                                                href="okno.html">
+                                                3 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled"
+                                                style="border: 1px solid #77756c; background-color: #4e4d4b; color: #77756c;"
+                                                href="okno.html">
+                                                4 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled"
+                                                style="border: 1px solid #77756c; background-color: #4e4d4b; color: #77756c;"
+                                                href="okno.html">
+                                                5 </a></li>
+                                <li style="width: 35px; height: 40px;"><a class="disabled"
+                                                style="border: 1px solid #77756c; background-color: #4e4d4b; color: #77756c;"
+                                                href="okno.html">
+                                                6 </a></li>
+                                <li style="width: 35px; height: 40px"><a class="disabled"
+                                                style="border: 1px solid #77756c; background-color: #4e4d4b; color: #77756c;"
+                                                href="okno.html">
+                                                7 </a></li>
+                                <li style="width: 35px; height: 40px"><a class="disabled"
+                                                style="border: 1px solid #77756c; background-color: #4e4d4b; color: #77756c;"
+                                                href="okno.html">
+                                                8 </a></li>
+                        </ul>
+                        <!-- К6 -->
+
+                        <br>
+
+                </div>
+
+                <iframe src="content.html" height="100%" width="100.6%" frameborder="0"></iframe>
+
+        </center>
+</body>
+
+</html>
